@@ -1,0 +1,68 @@
+MOV R0 , #5 
+ADD R0 , #3 
+MOV a, R0 
+ 
+MOV R0 , a 
+MUL R0 , #2 
+MOV R1 , b 
+ADD R1 , R0 
+MOV b, R1 
+ 
+MOV R0 , b 
+NOT R0 
+OR R0 , #0 
+MOV c, R0 
+ 
+MOV R0 , a 
+POW R0 , #2 
+MOV d, R0 
+ 
+MOV R0 , e 
+IDIV R0 , #3 
+MOV e, R0 
+ 
+MOV R0 , a 
+MOV R1 , b 
+ADD R0 , R1 
+MOV R2 , c 
+MOV R3 , d 
+SUB R2 , R3 
+MUL R0 , R2 
+MOV R4 , e 
+DIV R0 , R4 
+MOV f, R0 
+ 
+MOV R0 , f 
+POW R0 , #2 
+ADD R0 , #1 
+MOV R1 , g 
+MOD R1 , R0 
+MOV g, R1 
+ 
+MOV R0 , a 
+MOV R1 , b 
+CMPGT R0 , R1 
+ 
+MOV R2 , c 
+MOV R3 , d 
+CMPLT R2 , R3 
+ 
+AND R0 , R2 
+NOT R0 
+MOV R4 , e 
+OR R0 , R4 
+MOV h, R0 
+ 
+MOV R0 , i 
+POW R0 , #2 
+MOV i, R0 
+ 
+MOV R0 , i 
+MOV R1 , a 
+MOV R2 , b 
+MOV R3 , c 
+MUL R2 , R3 
+ADD R1 , R2 
+IDIV R0 , R1 
+MOV j, R0 
+ 

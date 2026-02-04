@@ -1,0 +1,34 @@
+MOV a, #9
+
+MOV R0 , a
+SQRT R0
+MOV b, R0
+
+MOV R0 , a
+POW R0 , #3
+MOV c, R0
+
+MOV R0 , b
+LOG R0
+MOV R1 , a
+SIN R1
+ADD R0 , R1
+MOV d, R0
+
+MOV R0 , c
+COS R0
+MOV R1 , d
+TAN R1
+MUL R0 , R1
+MOV e, R0
+
+MOV R0 , a
+NEG R0
+MOV R1 , b
+ADD R0 , R1
+ABS R0
+MOV R2 , #2
+EXP R2
+DIV R0 , R2
+MOV f, R0
+
